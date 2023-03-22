@@ -30,6 +30,7 @@ local wh_agents = {
     {["faction"] = "wh2_dlc15_hef_imrik", ["subtype"] = "wh2_dlc15_hef_imrik", ["name"] = "", ["lastname"] = "", ["type"] = "general", ["region"] = "wh3_main_combi_region_the_fortress_of_vorag"},
     ------UNIQUE LORDS
     {["faction"] = "wh2_main_hef_eataine", ["subtype"] = "wh2_main_hef_prince_alastar", ["name"] = "", ["lastname"] = "", ["type"] = "general", ["region"] = "wh3_main_combi_region_lothern"}, --SAME AS TYRION
+    --BEL-KEC
     ------------------------------------------------------------------------------------------
 
     ---KISLEV------------------------------------------------------------------------------------------
