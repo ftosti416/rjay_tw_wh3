@@ -6,37 +6,52 @@ end
 local wh_agents = {
     ---BRETONNIA------------------------------------------------------------------------------------------
     ------LEGENDARY LORDS
-    {["faction"] = "wh_main_brt_bretonnia", ["subtype"] = "wh_main_brt_louen_leoncouer", ["name"] = "names_name_2147343915", ["lastname"] = "names_name_2147343917", ["type"] = "general",  ["region"] = "wh3_main_combi_region_couronne"},
-    {["faction"] = "wh_main_brt_bordeleaux", ["subtype"] = "wh_dlc07_brt_alberic", ["name"] = "names_name_2147345888", ["lastname"] = "names_name_1529663917", ["type"] = "general", ["region"] = "wh3_main_combi_region_temple_of_tlencan"},
-    {["faction"] = "wh_main_brt_carcassonne", ["subtype"] = "wh_dlc07_brt_fay_enchantress", ["name"] = "names_name_2147358931", ["lastname"] = "", ["type"] = "general", ["region"] = "wh3_main_combi_region_castle_carcassonne"},
-    {["faction"] = "wh2_dlc14_brt_chevaliers_de_lyonesse", ["subtype"] = "wh2_dlc14_brt_repanse", ["name"] = "names_name_202782467", ["lastname"] = "", ["type"] = "general", ["region"] = "wh3_main_combi_region_copher"},
+    {["faction"] = "wh_main_brt_bretonnia", ["subtype"] = "wh_main_brt_louen_leoncouer", ["name"] = "", ["lastname"] = "", ["type"] = "general",  ["region"] = "wh3_main_combi_region_couronne"},
+    {["faction"] = "wh_main_brt_bordeleaux", ["subtype"] = "wh_dlc07_brt_alberic", ["name"] = "", ["lastname"] = "", ["type"] = "general", ["region"] = "wh3_main_combi_region_temple_of_tlencan"},
+    {["faction"] = "wh_main_brt_carcassonne", ["subtype"] = "wh_dlc07_brt_fay_enchantress", ["name"] = "", ["lastname"] = "", ["type"] = "general", ["region"] = "wh3_main_combi_region_castle_carcassonne"},
+    {["faction"] = "wh2_dlc14_brt_chevaliers_de_lyonesse", ["subtype"] = "wh2_dlc14_brt_repanse", ["name"] = "", ["lastname"] = "", ["type"] = "general", ["region"] = "wh3_main_combi_region_copher"},
     ------UNIQUE HEROES
     --{["faction"] = "wh2_dlc14_brt_chevaliers_de_lyonesse", ["subtype"] = "wh2_dlc14_brt_henri_le_massif", ["name"] = "names_name_1774059156", ["type"] = "champion", ["region"] = "wh3_main_combi_region_copher"}, --SAME AS REPANSE -- NOT WORKING
     ------------------------------------------------------------------------------------------
 
     ---GRAND CATHAY------------------------------------------------------------------------------------------
     ------LEGENDARY LORDS
-    {["faction"] = "wh3_main_cth_the_northern_provinces", ["subtype"] = "wh3_main_cth_miao_ying", ["name"] = "names_name_1909115770", ["lastname"] = "", ["type"] = "general", ["region"] = "wh3_main_combi_region_nan_gau"},
-    {["faction"] = "wh3_main_cth_the_western_provinces", ["subtype"] = "wh3_main_cth_zhao_ming", ["name"] = "names_name_806936419", ["lastname"] = "", ["type"] = "general", ["region"] = "wh3_main_combi_region_qiang"},
+    {["faction"] = "wh3_main_cth_the_northern_provinces", ["subtype"] = "wh3_main_cth_miao_ying", ["name"] = "", ["lastname"] = "", ["type"] = "general", ["region"] = "wh3_main_combi_region_nan_gau"},
+    {["faction"] = "wh3_main_cth_the_western_provinces", ["subtype"] = "wh3_main_cth_zhao_ming", ["name"] = "", ["lastname"] = "", ["type"] = "general", ["region"] = "wh3_main_combi_region_qiang"},
     ------------------------------------------------------------------------------------------
     
     ---HIGH ELVES------------------------------------------------------------------------------------------
     ------LEGENDARY LORDS
-    {["faction"] = "wh2_main_hef_order_of_loremasters", ["subtype"] = "wh2_main_hef_teclis", ["name"] = "names_name_2147359256", ["lastname"] = "", ["type"] = "general", ["region"] = "wh3_main_combi_region_fortress_of_dawn"},
-    {["faction"] = "wh2_main_hef_eataine", ["subtype"] = "wh2_main_hef_tyrion", ["name"] = "names_name_2147360906", ["lastname"] = "", ["type"] = "general", ["region"] = "wh3_main_combi_region_lothern"},
-    {["faction"] = "wh2_main_hef_avelorn", ["subtype"] = "wh2_dlc10_hef_alarielle", ["name"] = "names_name_898828143", ["lastname"] = "", ["type"] = "general", ["region"] = "wh3_main_combi_region_gaean_vale"},
-    {["faction"] = "wh2_main_hef_nagarythe", ["subtype"] = "wh2_dlc10_hef_alith_anar", ["name"] = "names_name_1829581114", ["lastname"] = "", ["type"] = "general", ["region"] = "wh3_main_combi_region_the_monoliths"},
-    {["faction"] = "wh2_main_hef_yvresse", ["subtype"] = "wh2_dlc15_hef_eltharion", ["name"] = "names_name_2022469392", ["lastname"] = "", ["type"] = "general", ["region"] = "wh3_main_combi_region_tor_yvresse"},
-    {["faction"] = "wh2_dlc15_hef_imrik", ["subtype"] = "wh2_dlc15_hef_imrik", ["name"] = "names_name_106604727", ["lastname"] = "", ["type"] = "general", ["region"] = "wh3_main_combi_region_the_fortress_of_vorag"},
+    {["faction"] = "wh2_main_hef_order_of_loremasters", ["subtype"] = "wh2_main_hef_teclis", ["name"] = "", ["lastname"] = "", ["type"] = "general", ["region"] = "wh3_main_combi_region_fortress_of_dawn"},
+    {["faction"] = "wh2_main_hef_eataine", ["subtype"] = "wh2_main_hef_tyrion", ["name"] = "", ["lastname"] = "", ["type"] = "general", ["region"] = "wh3_main_combi_region_lothern"},
+    {["faction"] = "wh2_main_hef_avelorn", ["subtype"] = "wh2_dlc10_hef_alarielle", ["name"] = "", ["lastname"] = "", ["type"] = "general", ["region"] = "wh3_main_combi_region_gaean_vale"},
+    {["faction"] = "wh2_main_hef_nagarythe", ["subtype"] = "wh2_dlc10_hef_alith_anar", ["name"] = "", ["lastname"] = "", ["type"] = "general", ["region"] = "wh3_main_combi_region_the_monoliths"},
+    {["faction"] = "wh2_main_hef_yvresse", ["subtype"] = "wh2_dlc15_hef_eltharion", ["name"] = "", ["lastname"] = "", ["type"] = "general", ["region"] = "wh3_main_combi_region_tor_yvresse"},
+    {["faction"] = "wh2_dlc15_hef_imrik", ["subtype"] = "wh2_dlc15_hef_imrik", ["name"] = "", ["lastname"] = "", ["type"] = "general", ["region"] = "wh3_main_combi_region_the_fortress_of_vorag"},
     ------UNIQUE LORDS
-    {["faction"] = "wh2_main_hef_eataine", ["subtype"] = "wh2_main_hef_prince_alastar", ["name"] = "names_name_2147360555", ["lastname"] = "names_name_2147360560", ["type"] = "general", ["region"] = "wh3_main_combi_region_lothern"}, --SAME AS TYRION
+    {["faction"] = "wh2_main_hef_eataine", ["subtype"] = "wh2_main_hef_prince_alastar", ["name"] = "", ["lastname"] = "", ["type"] = "general", ["region"] = "wh3_main_combi_region_lothern"}, --SAME AS TYRION
     ------------------------------------------------------------------------------------------
 
     ---KISLEV------------------------------------------------------------------------------------------
     ------LEGENDARY LORDS
-    {["faction"] = "wh3_main_ksl_the_great_orthodoxy", ["subtype"] = "wh3_main_ksl_kostaltyn", ["name"] = "names_name_1314872093", ["lastname"] = "", ["type"] = "general", ["region"] = "wh3_main_combi_region_praag"},
-    {["faction"] = "wh3_main_ksl_the_ice_court", ["subtype"] = "wh3_main_ksl_katarin", ["name"] = "names_name_1506497736", ["lastname"] = "", ["type"] = "general", ["region"] = "wh3_main_combi_region_kislev"},
-    {["faction"] = "wh3_main_ksl_ursun_revivalists", ["subtype"] = "wh3_main_ksl_boris", ["name"] = "names_name_1061845961", ["lastname"] = "", ["type"] = "general", ["region"] = "wh3_main_combi_region_the_tower_of_torment"} --REGIONLESS START [CLOSEST REGION]
+    {["faction"] = "wh3_main_ksl_the_great_orthodoxy", ["subtype"] = "wh3_main_ksl_kostaltyn", ["name"] = "", ["lastname"] = "", ["type"] = "general", ["region"] = "wh3_main_combi_region_praag"},
+    {["faction"] = "wh3_main_ksl_the_ice_court", ["subtype"] = "wh3_main_ksl_katarin", ["name"] = "", ["lastname"] = "", ["type"] = "general", ["region"] = "wh3_main_combi_region_kislev"},
+    {["faction"] = "wh3_main_ksl_ursun_revivalists", ["subtype"] = "wh3_main_ksl_boris", ["name"] = "", ["lastname"] = "", ["type"] = "general", ["region"] = "wh3_main_combi_region_the_tower_of_torment"}, --REGIONLESS START [CLOSEST REGION]
+    ------------------------------------------------------------------------------------------
+
+    ---THE EMPIRE------------------------------------------------------------------------------------------
+    ------LEGENDARY LORDS
+    {["faction"] = "wh_main_emp_empire", ["subtype"] = "wh_main_emp_karl_franz", ["name"] = "", ["lastname"] = "", ["type"] = "general", ["region"] = "wh3_main_combi_region_altdorf"},
+    {["faction"] = "wh2_dlc13_emp_golden_order", ["subtype"] = "wh_main_emp_balthasar_gelt", ["name"] = "", ["lastname"] = "", ["type"] = "general", ["region"] = "wh3_main_combi_region_pfeildorf"},
+    {["faction"] = "wh3_main_emp_cult_of_sigmar", ["subtype"] = "wh_dlc04_emp_volkmar", ["name"] = "", ["lastname"] = "", ["type"] = "general", ["region"] = "wh3_main_combi_region_sudenburg"},
+    {["faction"] = "wh2_dlc13_emp_the_huntmarshals_expedition", ["subtype"] = "wh2_dlc13_emp_cha_markus_wulfhart", ["name"] = "", ["lastname"] = "", ["type"] = "general", ["region"] = "wh3_main_combi_region_temple_of_kara"},
+    ------UNIQUE LORDS
+    {["faction"] = "wh_main_emp_middenland", ["subtype"] = "wh_dlc03_emp_boris_todbringer", ["name"] = "", ["lastname"] = "", ["type"] = "general", ["region"] = "wh3_main_combi_region_middenheim"},
+    ------UNIQUE HEROES
+    {["faction"] = "wh2_dlc13_emp_the_huntmarshals_expedition", ["subtype"] = "wh2_dlc13_emp_hunter_jorek_grimm", ["name"] = "", ["lastname"] = "", ["type"] = "engineer", ["region"] = "wh3_main_combi_region_temple_of_kara"}, --SAME AS MARKUS WULFHART
+    {["faction"] = "wh2_dlc13_emp_the_huntmarshals_expedition", ["subtype"] = "wh2_dlc13_emp_hunter_rodrik_l_anguille", ["name"] = "", ["lastname"] = "", ["type"] = "champion", ["region"] = "wh3_main_combi_region_temple_of_kara"}, --SAME AS MARKUS WULFHART
+    {["faction"] = "wh2_dlc13_emp_the_huntmarshals_expedition", ["subtype"] = "wh2_dlc13_emp_hunter_doctor_hertwig_van_hal", ["name"] = "", ["lastname"] = "", ["type"] = "spy", ["region"] = "wh3_main_combi_region_temple_of_kara"}, --SAME AS MARKUS WULFHART
+    {["faction"] = "wh2_dlc13_emp_the_huntmarshals_expedition", ["subtype"] = "wh2_dlc13_emp_hunter_kalara_of_wydrioth", ["name"] = "", ["lastname"] = "", ["type"] = "spy", ["region"] = "wh3_main_combi_region_temple_of_kara"} --SAME AS MARKUS WULFHART
     ------------------------------------------------------------------------------------------
 
 }
@@ -52,6 +67,11 @@ local hef_main_factions = {
 }
 local ksl_main_factions = {
     "wh3_main_ksl_the_great_orthodoxy", "wh3_main_ksl_the_ice_court", "wh3_main_ksl_ursun_revivalists"
+}
+local emp_main_factions = {
+    "wh_main_emp_empire",
+    "wh2_dlc13_emp_golden_order", "wh3_main_emp_cult_of_sigmar", "wh2_dlc13_emp_the_huntmarshals_expedition",
+    "wh_main_emp_middenland"
 }
 
 controller = {
@@ -105,6 +125,7 @@ function rjay_culture_eradicated_listener()
         check_culture_alive(cth_main_factions, player_faction);
         check_culture_alive(hef_main_factions, player_faction);
         check_culture_alive(ksl_main_factions, player_faction);
+        check_culture_alive(emp_main_factions, player_faction);
     end, true)
 end
 
