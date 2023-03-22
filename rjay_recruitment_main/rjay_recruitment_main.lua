@@ -176,7 +176,6 @@ function check_agent(player_faction, agent)
     end
     if not char_found then
         if (check_region(player_faction, agent)) then
-        else
             create_recruitment_dilemma(player_faction, agent);
         end
     end
