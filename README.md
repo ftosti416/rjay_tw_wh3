@@ -1,6 +1,6 @@
 # rJay Warhammer 3
 Repo for lua script for my mod.
-This mod should make it possible to recruit other LL/UL/LH/UH from other factions (if dead or if not currently confederated).
+This mod should make it possible to recruit other LL/UL/LH/UH from other factions (if dead or not currently confederated).
 
 ## List of Races Supported
 - [ ] Beastmen
