@@ -48,10 +48,21 @@ local wh_agents = {
     ------UNIQUE LORDS
     {["faction"] = "wh_main_emp_middenland", ["subtype"] = "wh_dlc03_emp_boris_todbringer", ["name"] = "", ["lastname"] = "", ["type"] = "general", ["region"] = "wh3_main_combi_region_middenheim"},
     ------UNIQUE HEROES
-    {["faction"] = "wh2_dlc13_emp_the_huntmarshals_expedition", ["subtype"] = "wh2_dlc13_emp_hunter_jorek_grimm", ["name"] = "", ["lastname"] = "", ["type"] = "engineer", ["region"] = "wh3_main_combi_region_temple_of_kara"}, --SAME AS MARKUS WULFHART
-    {["faction"] = "wh2_dlc13_emp_the_huntmarshals_expedition", ["subtype"] = "wh2_dlc13_emp_hunter_rodrik_l_anguille", ["name"] = "", ["lastname"] = "", ["type"] = "champion", ["region"] = "wh3_main_combi_region_temple_of_kara"}, --SAME AS MARKUS WULFHART
-    {["faction"] = "wh2_dlc13_emp_the_huntmarshals_expedition", ["subtype"] = "wh2_dlc13_emp_hunter_doctor_hertwig_van_hal", ["name"] = "", ["lastname"] = "", ["type"] = "spy", ["region"] = "wh3_main_combi_region_temple_of_kara"}, --SAME AS MARKUS WULFHART
-    {["faction"] = "wh2_dlc13_emp_the_huntmarshals_expedition", ["subtype"] = "wh2_dlc13_emp_hunter_kalara_of_wydrioth", ["name"] = "", ["lastname"] = "", ["type"] = "spy", ["region"] = "wh3_main_combi_region_temple_of_kara"} --SAME AS MARKUS WULFHART
+    --{["faction"] = "wh2_dlc13_emp_the_huntmarshals_expedition", ["subtype"] = "wh2_dlc13_emp_hunter_jorek_grimm", ["name"] = "", ["lastname"] = "", ["type"] = "engineer", ["region"] = "wh3_main_combi_region_temple_of_kara"}, --SAME AS MARKUS WULFHART
+    --{["faction"] = "wh2_dlc13_emp_the_huntmarshals_expedition", ["subtype"] = "wh2_dlc13_emp_hunter_rodrik_l_anguille", ["name"] = "", ["lastname"] = "", ["type"] = "champion", ["region"] = "wh3_main_combi_region_temple_of_kara"}, --SAME AS MARKUS WULFHART
+    --{["faction"] = "wh2_dlc13_emp_the_huntmarshals_expedition", ["subtype"] = "wh2_dlc13_emp_hunter_doctor_hertwig_van_hal", ["name"] = "", ["lastname"] = "", ["type"] = "spy", ["region"] = "wh3_main_combi_region_temple_of_kara"}, --SAME AS MARKUS WULFHART
+    --{["faction"] = "wh2_dlc13_emp_the_huntmarshals_expedition", ["subtype"] = "wh2_dlc13_emp_hunter_kalara_of_wydrioth", ["name"] = "", ["lastname"] = "", ["type"] = "spy", ["region"] = "wh3_main_combi_region_temple_of_kara"}, --SAME AS MARKUS WULFHART
+    ------------------------------------------------------------------------------------------
+
+    ---WOOD ELVES------------------------------------------------------------------------------------------
+    ------LEGENDARY LORDS
+    {["faction"] = "wh_dlc05_wef_wood_elves", ["subtype"] = "wh_dlc05_wef_orion", ["name"] = "", ["lastname"] = "", ["type"] = "general", ["region"] = "wh3_main_combi_region_kings_glade"},
+    {["faction"] = "wh_dlc05_wef_argwylon", ["subtype"] = "wh_dlc05_wef_durthu", ["name"] = "", ["lastname"] = "", ["type"] = "general", ["region"] = "wh3_main_combi_region_waterfall_palace"},
+    {["faction"] = "wh2_dlc16_wef_sisters_of_twilight", ["subtype"] = "wh2_dlc16_wef_sisters_of_twilight", ["name"] = "", ["lastname"] = "", ["type"] = "general", ["region"] = "wh3_main_combi_region_the_witchwood"},
+    {["faction"] = "wh2_dlc16_wef_drycha", ["subtype"] = "wh2_dlc16_wef_drycha", ["name"] = "", ["lastname"] = "", ["type"] = "general", ["region"] = "wh3_main_combi_region_gryphon_wood"},
+    ------LEGENDARY HEROES
+    --{["faction"] = "wh2_dlc16_wef_sisters_of_twilight", ["subtype"] = "wh2_dlc16_wef_ariel", ["name"] = "", ["lastname"] = "", ["type"] = "wizard", ["region"] = "wh3_main_combi_region_the_witchwood"}, --SAME AS SISTERS OF TWILIGHT
+    --{["faction"] = "wh2_dlc16_wef_drycha", ["subtype"] = "wh2_dlc16_wef_coeddil", ["name"] = "", ["lastname"] = "", ["type"] = "champion", ["region"] = "wh3_main_combi_region_gryphon_wood"}, --SAME AS DRYCHA
     ------------------------------------------------------------------------------------------
 
 }
@@ -72,6 +83,9 @@ local emp_main_factions = {
     "wh_main_emp_empire",
     "wh2_dlc13_emp_golden_order", "wh3_main_emp_cult_of_sigmar", "wh2_dlc13_emp_the_huntmarshals_expedition",
     "wh_main_emp_middenland"
+}
+local wef_main_factions = {
+    "wh_dlc05_wef_wood_elves", "wh_dlc05_wef_argwylon", "wh2_dlc16_wef_sisters_of_twilight", "wh2_dlc16_wef_drycha"
 }
 
 controller = {
@@ -126,6 +140,7 @@ function rjay_culture_eradicated_listener()
         check_culture_alive(hef_main_factions, player_faction);
         check_culture_alive(ksl_main_factions, player_faction);
         check_culture_alive(emp_main_factions, player_faction);
+        check_culture_alive(wef_main_factions, player_faction);
     end, true)
 end
 
