@@ -11,7 +11,7 @@ local wh_agents = {
     {["faction"] = "wh_main_brt_carcassonne", ["subtype"] = "wh_dlc07_brt_fay_enchantress", ["name"] = "", ["lastname"] = "", ["type"] = "general", ["region"] = "wh3_main_combi_region_castle_carcassonne"},
     {["faction"] = "wh2_dlc14_brt_chevaliers_de_lyonesse", ["subtype"] = "wh2_dlc14_brt_repanse", ["name"] = "", ["lastname"] = "", ["type"] = "general", ["region"] = "wh3_main_combi_region_copher"},
     ------UNIQUE HEROES
-    --{["faction"] = "wh2_dlc14_brt_chevaliers_de_lyonesse", ["subtype"] = "wh2_dlc14_brt_henri_le_massif", ["name"] = "names_name_1774059156", ["type"] = "champion", ["region"] = "wh3_main_combi_region_copher"}, --SAME AS REPANSE -- NOT WORKING
+    {["faction"] = "wh2_dlc14_brt_chevaliers_de_lyonesse", ["subtype"] = "wh2_dlc14_brt_henri_le_massif", ["name"] = "names_name_1774059156", ["type"] = "champion", ["region"] = "wh3_main_combi_region_copher"}, --SAME AS REPANSE
     ------------------------------------------------------------------------------------------
 
     ---GRAND CATHAY------------------------------------------------------------------------------------------
@@ -50,9 +50,9 @@ local wh_agents = {
     {["faction"] = "wh_main_emp_middenland", ["subtype"] = "wh_dlc03_emp_boris_todbringer", ["name"] = "", ["lastname"] = "", ["type"] = "general", ["region"] = "wh3_main_combi_region_middenheim"},
     ------UNIQUE HEROES
     --{["faction"] = "wh2_dlc13_emp_the_huntmarshals_expedition", ["subtype"] = "wh2_dlc13_emp_hunter_jorek_grimm", ["name"] = "", ["lastname"] = "", ["type"] = "engineer", ["region"] = "wh3_main_combi_region_temple_of_kara"}, --SAME AS MARKUS WULFHART
-    --{["faction"] = "wh2_dlc13_emp_the_huntmarshals_expedition", ["subtype"] = "wh2_dlc13_emp_hunter_rodrik_l_anguille", ["name"] = "", ["lastname"] = "", ["type"] = "champion", ["region"] = "wh3_main_combi_region_temple_of_kara"}, --SAME AS MARKUS WULFHART
-    --{["faction"] = "wh2_dlc13_emp_the_huntmarshals_expedition", ["subtype"] = "wh2_dlc13_emp_hunter_doctor_hertwig_van_hal", ["name"] = "", ["lastname"] = "", ["type"] = "spy", ["region"] = "wh3_main_combi_region_temple_of_kara"}, --SAME AS MARKUS WULFHART
-    --{["faction"] = "wh2_dlc13_emp_the_huntmarshals_expedition", ["subtype"] = "wh2_dlc13_emp_hunter_kalara_of_wydrioth", ["name"] = "", ["lastname"] = "", ["type"] = "spy", ["region"] = "wh3_main_combi_region_temple_of_kara"}, --SAME AS MARKUS WULFHART
+    {["faction"] = "wh2_dlc13_emp_the_huntmarshals_expedition", ["subtype"] = "wh2_dlc13_emp_hunter_rodrik_l_anguille", ["name"] = "", ["lastname"] = "", ["type"] = "champion", ["region"] = "wh3_main_combi_region_temple_of_kara"}, --SAME AS MARKUS WULFHART
+    {["faction"] = "wh2_dlc13_emp_the_huntmarshals_expedition", ["subtype"] = "wh2_dlc13_emp_hunter_doctor_hertwig_van_hal", ["name"] = "", ["lastname"] = "", ["type"] = "spy", ["region"] = "wh3_main_combi_region_temple_of_kara"}, --SAME AS MARKUS WULFHART
+    {["faction"] = "wh2_dlc13_emp_the_huntmarshals_expedition", ["subtype"] = "wh2_dlc13_emp_hunter_kalara_of_wydrioth", ["name"] = "", ["lastname"] = "", ["type"] = "spy", ["region"] = "wh3_main_combi_region_temple_of_kara"}, --SAME AS MARKUS WULFHART
     ------------------------------------------------------------------------------------------
 
     ---WOOD ELVES------------------------------------------------------------------------------------------
