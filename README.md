@@ -19,7 +19,7 @@ This mod should make it possible to recruit other LL/UL/LH/UH from other faction
 - [ ] Ogre Kingdoms
 - [ ] Skaven
 - [ ] Slaanesh
-- [ ] The Empire
+- [x] ~~The Empire~~
 - [ ] Tomb Kings
 - [ ] Tzeentch
 - [ ] Vampire Coast
